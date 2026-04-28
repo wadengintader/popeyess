@@ -5,20 +5,20 @@ import ErrorReporter from "@/components/ErrorReporter";
 import Script from "next/script";
 
 export const metadata: Metadata = {
-  title: "7 Brew Gift Card",
-  description: "Participate in the T-Mobile Rewards program and get a chance to claim a $1000 gift card.",
+  title: "Popeyes Gift Card",
+  description: "Participate in the Popeyes Rewards program and get a chance to claim a $500 gift card.",
     icons: {
     icon: [
-      { url: "https://i.imgur.com/V2iJvkG.png", type: "image/png" },
+      { url: "https://i.imgur.com/3ZJu21C.png", type: "image/png" },
     ],
-    shortcut: "https://i.imgur.com/V2iJvkG.png",
+    shortcut: "https://i.imgur.com/3ZJu21C.png",
     apple: [
-      { url: "https://i.imgur.com/V2iJvkG.png", sizes: "180x180", type: "image/png" },
+      { url: "https://i.imgur.com/3ZJu21C.png", sizes: "180x180", type: "image/png" },
     ],
     other: [
       {
         rel: "apple-touch-icon-precomposed",
-        url: "https://i.imgur.com/V2iJvkG.png",
+        url: "https://i.imgur.com/3ZJu21C.png",
       },
     ],
   },

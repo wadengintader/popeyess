@@ -33,17 +33,17 @@ const steps: Step[] = [
   },
   {
     icon: <Unlock className="w-3 h-3 sm:w-3.5 sm:h-3.5" />,
-    text: "Unlock your 7 BREW Rewards",
+    text: "Unlock your POPEYES Rewards",
   },
 ];
 
 export default function InstructionSteps() {
   return (
     <section className="relative w-full max-w-md mx-auto px-4 sm:px-5 mb-4 mt-3">
-      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#005da6]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#005da6]/50 hover:scale-[1.01]">
+      <div className="relative rounded-[1.5rem] sm:rounded-[2rem] p-2 sm:p-4 bg-white/5 backdrop-blur-md border-2 border-[#ff7d00]/30 shadow-[0_8px_32_rgb(204, 0, 0)] overflow-hidden group/box transition-all duration-500 hover:border-[#ff7d00]/50 hover:scale-[1.01]">
         <div className="absolute inset-0 rounded-[1.5rem] sm:rounded-[2rem] overflow-hidden pointer-events-none">
           <img
-            src="https://i.imgur.com/GesNwB4.jpeg"
+            src="https://i.imgur.com/XBrDvWp.jpeg"
             alt=""
             className="w-full h-full object-cover opacity-10"
           />
@@ -61,7 +61,7 @@ export default function InstructionSteps() {
               className="flex items-center gap-1.5 sm:gap-2.5 group/item animate-in fade-in slide-in-from-left duration-500 fill-mode-both"
               style={{ animationDelay: `${index * 100}ms` }}
             >
-              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#005da6]/15 text-[#005da6] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
+              <div className="relative flex-shrink-0 w-6 h-6 sm:w-7 sm:h-7 flex items-center justify-center rounded-lg sm:rounded-xl bg-white/40 border border-[#ff7d00]/15 text-[#ff7d00] group-hover/item:scale-110 group-hover/item:bg-white/60 transition-all duration-300 shadow-sm">
                 {step.icon}
               </div>
 

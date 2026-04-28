@@ -10,7 +10,7 @@ import { Star } from 'lucide-react';
  * including a shimmering hover effect, star icons, and a pulsing bottom glow.
  */
 export default function CTAButton() {
-  const url = "https://giftclick.org/aff_c?offer_id=4512&aff_id=44723&source=7Brew";
+  const url = "https://giftclick.org/aff_c?offer_id=4522&aff_id=44723&source=popeyes";
 
   const handleClick = (e: React.MouseEvent) => {
     // For Orchids preview environment
@@ -26,7 +26,7 @@ export default function CTAButton() {
         target="_blank"
         rel="noopener noreferrer"
         onClick={handleClick}
-        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#005da6] hover:bg-[#005da6] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
+        className="group relative w-[220px] sm:w-full h-[42px] sm:h-[54px] bg-[#ff7d00] hover:bg-[#ff7d00] text-white rounded-full flex items-center justify-center gap-2 shadow-[0_4px_15px_rgba(0,36,204,0.3)] transition-all duration-300 hover:scale-[1.02] active:scale-[0.98] overflow-hidden no-underline"
       >
         {/* Shine Animation Overlay */}
         <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/25 to-transparent -left-full group-hover:animate-shine pointer-events-none" />
